@@ -6,7 +6,7 @@ import { isValidPhoneNumber } from 'libphonenumber-js';
 import { countryOptions } from './data/countries';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/contacts';
+const API_URL = 'https://contact-management-web-app-r8iv.onrender.com/api/contacts';
 
 function App() {
   const [contacts, setContacts] = useState([]);
